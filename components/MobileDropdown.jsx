@@ -49,7 +49,7 @@ export function MobileDropdown() {
         </DropdownMenuItem>
         <DropdownMenuItem onClick={handleItemClick}>
           <Link
-            href='https://egxblog.net'
+            href='https://egxo.fyi'
             className='flex hover:text-yellow-400 sm:items-center sm:justify-center'
             target='_blank'
             rel='noopener noreferrer'

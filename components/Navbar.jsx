@@ -25,7 +25,7 @@ export function Navbar() {
           CONTACT
         </NavItem>
         <a
-          href='https://egxblog.net'
+          href='https://egxo.fyi'
           className='hover:text-yellow-400'
           target='_blank'
           rel='noopener noreferrer'

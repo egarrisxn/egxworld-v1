@@ -78,7 +78,7 @@ export default function HomePage() {
                   arial-label='Link to my new blog'
                   className='bg-yellow-400 text-black hover:bg-yellow-400/80 dark:hover:bg-yellow-400/90'
                 >
-                  <a href='https://www.egxblog.net/' target='_blank' rel='noopener noreferrer'>
+                  <a href='https://www.egxo.fyi/' target='_blank' rel='noopener noreferrer'>
                     New Blog!
                   </a>
                 </Button>
