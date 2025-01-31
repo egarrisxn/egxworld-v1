@@ -13,7 +13,7 @@ This site showcases my skills, projects, provides a glimpse into my professional
 ## Technologies
 
 - **JavaScript:** The primary programming language used for the project.
-- **Next.js 14:** Leveraging the latest features and improvements in the Next.js framework.
+- **Next.js** Leveraging the latest features and improvements in the Next.js framework.
 - **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
 - **Shadcn/UI:** A beautiful component library built ontop of Radix UI.
 
