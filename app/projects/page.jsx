@@ -26,7 +26,7 @@ export default function ProjectsPage() {
       <div className='mx-auto mt-12 flex w-full max-w-5xl flex-col gap-12 px-4 sm:mt-16 sm:px-8 xl:max-w-6xl 2xl:mt-24 2xl:max-w-7xl'>
         <Header
           className='text-blue-400 dark:text-blue-300'
-          title='The Present.'
+          title='2024 - Present'
           icons={projectsIcons}
         />
 
@@ -39,7 +39,7 @@ export default function ProjectsPage() {
         </section>
 
         <h2 className='font-bold uppercase tracking-tight text-blue-400 md:px-2 md:text-lg lg:text-2xl xl:mt-2 2xl:mb-2 2xl:mt-8 2xl:text-4xl dark:text-blue-300'>
-          The Past.
+          2023
         </h2>
 
         <section className='mx-auto flex flex-col pt-4 shadow-foreground drop-shadow-2xl md:mx-12 lg:mx-16 xl:mx-auto'>
