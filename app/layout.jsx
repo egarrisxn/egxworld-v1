@@ -11,27 +11,28 @@ export const metadata = {
   title: 'EG|World v1',
   description: 'Full Stack Developer. Digital Product Designer.',
   referrer: 'origin-when-cross-origin',
+  creator: 'https://egxo.dev.',
   keywords: [
     'eg, ethan_g, ethang, ethan-g, egarrisxn, egxworld, website, portfolio, projects, about, nextjs, next, next14, shadcn-ui, shadcn/ui, radixui, tailwindcss, javascript, react, fullstack, full-stack, webdeveloper, web-developer',
   ],
-  creator: {name: 'Ethan Garrison', url: 'https://github.com/egarrisxn'},
   robots: {
     index: true,
-    follow: true,
+    follow: false,
+    nocache: true,
     googleBot: {
       index: true,
-      follow: true,
+      follow: false,
+      noimageindex: true,
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
   },
   openGraph: {
-    type: 'website',
-    siteName: 'egxworld.vercel.app',
     title: 'EG|World v1',
+    description: 'Full Stack Developer. Digital Product Designer.',
     url: 'https://egxworld.vercel.app',
-    locale: 'en_US',
+    siteName: 'egxworld.vercel.app',
     images: [
       {
         url: `https://egxworld.vercel.app/opengraph-image.png`,
@@ -40,12 +41,15 @@ export const metadata = {
         alt: 'Full Stack Developer. Digital Product Designer.',
       },
     ],
+    locale: 'en_US',
+    type: 'website',
   },
   twitter: {
-    cardType: 'summary_large_image',
+    card: 'summary_large_image',
+    title: 'EG|World v1',
+    description: 'Full Stack Developer. Digital Product Designer.',
     creator: '@eg__xo',
     site: '@eg__xo',
-    title: 'EG|World v1',
     images: [
       {
         url: `https://egxworld.vercel.app/twitter-image.png`,
@@ -56,7 +60,14 @@ export const metadata = {
     ],
   },
   icons: {
-    shortcut: 'https://egxworld.vercel.app/favicon.ico',
+    icon: [{url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon'}],
+    apple: [{url: '/apple-icon.png', sizes: '192x192', type: 'image/png'}],
+    other: [
+      {
+        rel: 'apple-icon-precomposed',
+        url: '/apple-icon-precomposed.png',
+      },
+    ],
   },
 }
 
