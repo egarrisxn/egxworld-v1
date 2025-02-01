@@ -1,6 +1,6 @@
-import {Popover, PopoverContent, PopoverTrigger} from './ui/popover'
-import {Button} from './ui/button'
-import {TrackList} from '../components/SpotifyTrackList'
+import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
+import { Button } from "./ui/button";
+import { TrackList } from "../components/SpotifyTrackList";
 
 export function WeeklyTracks() {
   return (
@@ -8,15 +8,17 @@ export function WeeklyTracks() {
       <PopoverTrigger>
         <Button
           asChild
-          variant='none'
-          size='text'
-          aria-label='A popover of my top spotify tracks this week'
-          className='group'
+          variant="none"
+          size="text"
+          aria-label="A popover of my top spotify tracks this week"
+          className="group"
         >
           <p>
-            <span className='group-hover:text-green-400'>My top tracks this week </span>
-            <span className='inline-block text-green-400 transition-transform group-hover:translate-x-1 group-hover:text-foreground motion-reduce:transform-none'>
-              {''} &#8599;
+            <span className="group-hover:text-green-400">
+              My top tracks this week{" "}
+            </span>
+            <span className="inline-block text-green-400 transition-transform group-hover:translate-x-1 group-hover:text-foreground motion-reduce:transform-none">
+              {""} &#8599;
             </span>
           </p>
         </Button>
@@ -25,5 +27,5 @@ export function WeeklyTracks() {
         <TrackList />
       </PopoverContent>
     </Popover>
-  )
+  );
 }

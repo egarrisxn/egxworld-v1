@@ -1,6 +1,6 @@
 # egxworld-v1
 
-My *old* personal website / portfolio / whatever you'd like to call it.
+My _old_ personal website / portfolio / whatever you'd like to call it.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/egxworld) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/egxworld)
 

@@ -1,28 +1,28 @@
 export default function sitemap() {
   return [
     {
-      url: 'https://egxworld.vercel.app',
+      url: "https://egxworld.vercel.app",
       lastModified: new Date(),
-      changeFrequency: 'yearly',
+      changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: 'https://egxworld.vercel.app/about',
+      url: "https://egxworld.vercel.app/about",
       lastModified: new Date(),
-      changeFrequency: 'yearly',
+      changeFrequency: "yearly",
       priority: 0.8,
     },
     {
-      url: 'https://egxworld.vercel.app/projects',
+      url: "https://egxworld.vercel.app/projects",
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: 'https://egxworld.vercel.app/contact',
+      url: "https://egxworld.vercel.app/contact",
       lastModified: new Date(),
-      changeFrequency: 'yearly',
+      changeFrequency: "yearly",
       priority: 0.8,
     },
-  ]
+  ];
 }
