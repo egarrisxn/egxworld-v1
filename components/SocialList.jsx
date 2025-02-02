@@ -8,7 +8,7 @@ export const SocialList = () => {
         name="My GitHub"
         alt="GitHub Icon"
         label="GitHub"
-        className="hover:text-green-400"
+        className="hover:text-slate-400"
       >
         <path
           fill="none"
@@ -24,7 +24,7 @@ export const SocialList = () => {
         name="My LinedIn"
         alt="LinkedIn Icon"
         label="LinkedIn"
-        className="hover:text-red-400"
+        className="hover:text-blue-400"
       >
         <g
           fill="none"
@@ -36,6 +36,40 @@ export const SocialList = () => {
           <path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm4 5v5m0-8v.01M12 16v-5" />
           <path d="M16 16v-3a2 2 0 0 0-4 0" />
         </g>
+      </Icon>
+      <Icon
+        href="https://instagram.com/eg___xo"
+        name="My Instagram"
+        alt="Instagram Icon"
+        label="Instagram"
+        className="hover:text-red-400"
+      >
+        <g
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.5"
+        >
+          <path d="M4 8a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z" />
+          <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0m7.5-4.5v.01" />
+        </g>
+      </Icon>
+      <Icon
+        href="https://x.com/eg__xo"
+        name="My X"
+        alt="X Icon"
+        label="X"
+        className="hover:text-slate-400"
+      >
+        <path
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.5"
+          d="m13.081 10.712l-4.786-6.71a.6.6 0 0 0-.489-.252H5.28a.6.6 0 0 0-.488.948l6.127 8.59m2.162-2.576l6.127 8.59a.6.6 0 0 1-.488.948h-2.526a.6.6 0 0 1-.489-.252l-4.786-6.71m2.162-2.576l5.842-6.962m-8.004 9.538L5.077 20.25"
+        />
       </Icon>
       <Icon
         href="https://bsky.app/profile/egxo.bsky.social"
@@ -54,11 +88,11 @@ export const SocialList = () => {
         ></path>
       </Icon>
       <Icon
-        href="https://x.com/eg__xo"
-        name="My X"
-        alt="X Icon"
-        label="X"
-        className="hover:text-green-400"
+        href="https://threads.net/@eg___xo"
+        name="My Threads"
+        alt="Threads Icon"
+        label="Threads"
+        className="hover:text-slate-400"
       >
         <path
           fill="none"
@@ -66,16 +100,16 @@ export const SocialList = () => {
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="1.5"
-          d="m13.081 10.712l-4.786-6.71a.6.6 0 0 0-.489-.252H5.28a.6.6 0 0 0-.488.948l6.127 8.59m2.162-2.576l6.127 8.59a.6.6 0 0 1-.488.948h-2.526a.6.6 0 0 1-.489-.252l-4.786-6.71m2.162-2.576l5.842-6.962m-8.004 9.538L5.077 20.25"
-        />
+          d="M19.25 8.505c-1.577-5.867-7-5.5-7-5.5s-7.5-.5-7.5 8.995s7.5 8.996 7.5 8.996s4.458.296 6.5-3.918c.667-1.858.5-5.573-6-5.573c0 0-3 0-3 2.5c0 .976 1 2 2.5 2s3.171-1.027 3.5-3c1-6-4.5-6.5-6-4"
+          color="currentColor"
+        ></path>
       </Icon>
-
       <Icon
-        href="https://instagram.com/eg___xo"
-        name="My Instagram"
-        alt="Instagram Icon"
-        label="Instagram"
-        className="hover:text-red-400"
+        href="https://peerlist.io/eg_xo"
+        name="My Peerlist"
+        alt="Peerlist Icon"
+        label="Peerlist"
+        className="hover:text-green-400"
       >
         <g
           fill="none"
@@ -84,8 +118,8 @@ export const SocialList = () => {
           strokeLinejoin="round"
           strokeWidth="1.5"
         >
-          <path d="M4 8a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z" />
-          <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0m7.5-4.5v.01" />
+          <path d="M8.87 3h6.26a6 6 0 0 1 5.963 5.337l.21 1.896c.131 1.174.131 2.36 0 3.534l-.21 1.896A6 6 0 0 1 15.13 21H8.87a6 6 0 0 1-5.963-5.337l-.21-1.896a16 16 0 0 1 0-3.534l.21-1.896A6 6 0 0 1 8.87 3"></path>
+          <path d="M9 17v-4m0 0V7h4a3 3 0 0 1 3 3v0a3 3 0 0 1-3 3z"></path>
         </g>
       </Icon>
       <Icon

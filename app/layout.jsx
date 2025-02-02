@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   metadataBase: new URL("https://egxworld.vercel.app"),
-  title: "EG|World v1",
+  title: "egxworld v1",
   description: "Full Stack Developer. Digital Product Designer.",
   referrer: "origin-when-cross-origin",
   creator: "https://egxo.dev.",

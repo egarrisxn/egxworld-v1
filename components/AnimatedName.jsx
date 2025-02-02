@@ -9,12 +9,12 @@ export function AnimatedName() {
           className="transition-transform duration-300 group-hover:-translate-y-16"
           aria-hidden="true"
         >
-          <h4 className="flex cursor-default bg-gradient-to-tl from-yellow-500 via-yellow-600 to-yellow-700 bg-clip-text leading-tight tracking-tight text-transparent shadow-foreground drop-shadow-md delay-75 min-[320px]:text-lg min-[385px]:text-xl min-[460px]:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
+          <h4 className="flex cursor-default bg-gradient-to-tl from-yellow-500 via-yellow-600 to-yellow-700 bg-clip-text text-transparent shadow-foreground drop-shadow-md delay-75 min-[320px]:text-lg min-[385px]:text-xl min-[460px]:text-2xl lg:text-3xl xl:text-4xl 2xl:text-[3rem] 2xl:leading-[3.5rem]">
             Full Stack Developer.
           </h4>
         </div>
         <div className="absolute left-0 top-0 translate-y-16 shadow-foreground drop-shadow-md transition-transform duration-300 group-hover:translate-y-0">
-          <h4 className="flex cursor-default bg-gradient-to-tl from-yellow-800 via-yellow-600 to-yellow-400 bg-clip-text leading-tight tracking-tight text-transparent delay-75 min-[320px]:text-lg min-[385px]:text-xl min-[460px]:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
+          <h4 className="flex cursor-default bg-gradient-to-tl from-yellow-800 via-yellow-600 to-yellow-400 bg-clip-text text-transparent delay-75 min-[320px]:text-lg min-[385px]:text-xl min-[460px]:text-2xl lg:text-3xl xl:text-4xl 2xl:text-[3rem] 2xl:leading-[3.5rem]">
             Digital Product Designer.
           </h4>
         </div>
