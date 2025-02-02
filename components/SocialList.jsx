@@ -38,10 +38,10 @@ export const SocialList = () => {
         </g>
       </Icon>
       <Icon
-        href="https://x.com/eg__xo"
-        name="My X"
-        alt="X Icon"
-        label="X"
+        href="https://bsky.app/profile/egxo.bsky.social"
+        name="My BlueSky"
+        alt="BlueSky Icon"
+        label="BlueSky"
         className="hover:text-blue-400"
       >
         <path
@@ -50,27 +50,26 @@ export const SocialList = () => {
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="1.5"
-          d="M22 4.01c-1 .49-1.98.689-3 .99c-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4c0 0-4.182 7.433 4 11c-1.872 1.247-3.739 2.088-6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58-1.04 6.522-3.723 7.651-7.742a13.8 13.8 0 0 0 .497-3.753c0-.249 1.51-2.772 1.818-4.013z"
-        />
+          d="m2.753 4.514l.434 5.853a3.354 3.354 0 0 0 3.345 3.106h.702l-.51.291a5.94 5.94 0 0 0-2.447 2.677a2.655 2.655 0 0 0 .74 3.17l.972.787c1.226.994 3 1.236 4.085.089c.92-.974 1.32-1.914 1.405-2.128q.018-.046.032-.093l.295-.924c.111-.347.176-.707.194-1.07c.018.363.083.723.194 1.07l.295.924q.014.047.032.093c.084.214.486 1.154 1.405 2.128c1.084 1.147 2.859.906 4.085-.088l.971-.788a2.655 2.655 0 0 0 .741-3.17a5.94 5.94 0 0 0-2.447-2.676l-.51-.292h.702a3.354 3.354 0 0 0 3.345-3.106l.434-5.853c.101-1.363-1.373-2.25-2.5-1.477c-1.726 1.18-3.77 2.698-4.565 3.754c-1.41 1.872-2.117 3.559-2.182 3.719c-.065-.16-.772-1.847-2.182-3.72c-.795-1.055-2.84-2.573-4.564-3.754c-1.128-.772-2.602.115-2.5 1.478"
+        ></path>
       </Icon>
       <Icon
-        href="https://open.spotify.com/user/egarrisxn"
-        name="My Spotify"
-        alt="Spotify Icon"
-        label="Spotify"
+        href="https://x.com/eg__xo"
+        name="My X"
+        alt="X Icon"
+        label="X"
         className="hover:text-green-400"
       >
-        <g
+        <path
           fill="none"
           stroke="currentColor"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="1.5"
-        >
-          <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0" />
-          <path d="M8 11.973c2.5-1.473 5.5-.973 7.5.527M9 15c1.5-1 4-1 5 .5M7 9c2-1 6-2 10 .5" />
-        </g>
+          d="m13.081 10.712l-4.786-6.71a.6.6 0 0 0-.489-.252H5.28a.6.6 0 0 0-.488.948l6.127 8.59m2.162-2.576l6.127 8.59a.6.6 0 0 1-.488.948h-2.526a.6.6 0 0 1-.489-.252l-4.786-6.71m2.162-2.576l5.842-6.962m-8.004 9.538L5.077 20.25"
+        />
       </Icon>
+
       <Icon
         href="https://instagram.com/eg___xo"
         name="My Instagram"
@@ -106,6 +105,24 @@ export const SocialList = () => {
           <path d="M8 12a1 1 0 1 0 2 0a1 1 0 0 0-2 0m6 0a1 1 0 1 0 2 0a1 1 0 0 0-2 0" />
           <path d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833-1.667 3.5-3c.667-1.667.5-5.833-1.5-11.5c-1.457-1.015-3-1.34-4.5-1.5l-.972 1.923a11.9 11.9 0 0 0-4.053 0L9 4c-1.5.16-3.043.485-4.5 1.5c-2 5.667-2.167 9.833-1.5 11.5c.667 1.333 2 3 3.5 3c.5 0 2-2 2-3" />
           <path d="M7 16.5c3.5 1 6.5 1 10 0" />
+        </g>
+      </Icon>
+      <Icon
+        href="https://open.spotify.com/user/egarrisxn"
+        name="My Spotify"
+        alt="Spotify Icon"
+        label="Spotify"
+        className="hover:text-green-400"
+      >
+        <g
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.5"
+        >
+          <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0" />
+          <path d="M8 11.973c2.5-1.473 5.5-.973 7.5.527M9 15c1.5-1 4-1 5 .5M7 9c2-1 6-2 10 .5" />
         </g>
       </Icon>
     </>
