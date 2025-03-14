@@ -8,39 +8,20 @@ import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   metadataBase: new URL("https://egxworld.vercel.app"),
-  title: "egxworld v1",
+  title: "EG|World v1",
   description: "Full Stack Developer. Digital Product Designer.",
   referrer: "origin-when-cross-origin",
+  applicationName: "EG|World v1",
   creator: "https://egxo.dev.",
   keywords: [
     "eg, ethan_g, ethang, ethan-g, egarrisxn, egxworld, website, portfolio, projects, about, nextjs, next, next14, shadcn-ui, shadcn/ui, radixui, tailwindcss, javascript, react, fullstack, full-stack, webdeveloper, web-developer",
   ],
-  robots: {
-    index: true,
-    follow: false,
-    nocache: true,
-    googleBot: {
-      index: true,
-      follow: false,
-      noimageindex: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
+
   openGraph: {
     title: "EG|World v1",
     description: "Full Stack Developer. Digital Product Designer.",
     url: "https://egxworld.vercel.app",
-    siteName: "egxworld.vercel.app",
-    images: [
-      {
-        url: `https://egxworld.vercel.app/opengraph-image.png`,
-        width: 1200,
-        height: 630,
-        alt: "Full Stack Developer. Digital Product Designer.",
-      },
-    ],
+    siteName: "EG|World v1",
     locale: "en_US",
     type: "website",
   },
@@ -50,25 +31,22 @@ export const metadata = {
     description: "Full Stack Developer. Digital Product Designer.",
     creator: "@eg__xo",
     site: "@eg__xo",
-    images: [
-      {
-        url: `https://egxworld.vercel.app/twitter-image.png`,
-        width: 1200,
-        height: 630,
-        alt: "Full Stack Developer. Digital Product Designer.",
-      },
-    ],
   },
-  icons: {
-    icon: [{ url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" }],
-    apple: [{ url: "/apple-icon.png", sizes: "192x192", type: "image/png" }],
-    other: [
-      {
-        rel: "apple-icon-precomposed",
-        url: "/apple-icon-precomposed.png",
-      },
-    ],
+  appleWebApp: {
+    capable: true,
+    title: "EG|World v1",
+    startupImage: "/opengraph-image.png",
+    statusBarStyle: "black-translucent",
   },
+  formatDetection: {
+    telephone: true,
+    date: true,
+    address: true,
+    email: true,
+    url: true,
+  },
+  verification: {},
+  appLinks: {},
 };
 
 export const viewport = {
@@ -80,14 +58,10 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en"
-      className="scroll-smooth antialiased"
-      suppressHydrationWarning
-    >
+    <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          "grid min-h-[100dvh] grid-rows-[auto_1fr_auto] bg-background font-neogrote text-foreground"
+          "grid min-h-[100dvh] grid-rows-[auto_1fr_auto] scroll-smooth bg-background font-neogrote text-foreground antialiased"
         )}
       >
         <ThemeProvider>

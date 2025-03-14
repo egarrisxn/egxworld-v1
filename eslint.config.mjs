@@ -14,8 +14,6 @@ const eslintConfig = [
   ...compat.config({
     extends: ["next/core-web-vitals", "prettier"],
     rules: {
-      semi: ["error"],
-      quotes: ["error", "double"],
       // "no-unused-vars": "off",
       // "no-use-before-define": "off",
       // "no-undef": "off",

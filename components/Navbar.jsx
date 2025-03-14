@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { NavItem } from "./NavbarItem";
 import { ThemeSwap } from "./ThemeSwap";
 import { MobileDropdown } from "./MobileDropdown";

@@ -7,7 +7,7 @@ export default function NotFound() {
       <h1 className="my-4 text-2xl font-semibold">Page not found!</h1>
       <Button
         asChild
-        className="rounded-lg border-2 bg-blue-500 px-8 w-fit shadow-lg"
+        className="w-fit rounded-lg border-2 bg-blue-500 px-8 shadow-lg"
       >
         <Link href="/">Home</Link>
       </Button>
