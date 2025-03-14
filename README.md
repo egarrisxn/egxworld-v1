@@ -19,14 +19,14 @@ This site showcases my skills, projects, provides a glimpse into my professional
 
 ## Installation
 
-_Note: installation & deployment instructions use the npm package manager, but you may use the package manager of your choice._
+_Note: installation & deployment instructions use the pnpm package manager, but you may use the package manager of your choice._
 
 If you'd like to use this project as a starting point for inspiration, follow these steps!
 
-1. Clone the repository: `git clone git@github.com:egarrisxn/egxworld.git`
-2. Navigate to the project directory: `cd egxworld`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm run dev`
+1. Clone the repository: `git@github.com:egarrisxn/egxworld-v1.git`
+2. Navigate to the project directory: `cd egxworld-v1`
+3. Install dependencies: `pnpm install`
+4. Start the development server: `pnpm run dev`
 
 ## Deployment
 
@@ -40,7 +40,7 @@ To deploy this portfolio to Vercel:
 
    - Install the Vercel CLI globally using npm:
      ```
-     bash npm install -g vercel
+     bash pnpm install -g vercel
      ```
 
 3. **Login to Vercel:**
