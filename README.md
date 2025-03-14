@@ -1,8 +1,8 @@
 # egxworld-v1
 
-![egxworld](https://github.com/user-attachments/assets/2f8c6bc5-26e0-453f-ae48-e65ee38999eb)
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/egxworld) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/egxworld)
+
+![egxworld](https://github.com/user-attachments/assets/2f8c6bc5-26e0-453f-ae48-e65ee38999eb)
 
 ## Overview
 
