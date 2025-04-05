@@ -20,7 +20,7 @@ const eslintConfig = [
     },
   }),
   {
-    ignores: ["**/node_modules/", ".git/", ".next/"],
+    ignores: ["**/node_modules/", ".git/", ".vscode/", ".next/", "public/"],
   },
 ];
 
