@@ -4,14 +4,14 @@ import { cva } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center focus-visible:ring-ring focus-visible:ring-1 justify-center whitespace-nowrap transition-colors duration-150 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50",
+  "inline-flex items-center focus-visible:ring-ring focus-visible:ring-1 justify-center whitespace-nowrap transition-colors duration-150 ease-in-out focus-visible:outline-hidden disabled:pointer-events-none disabled:opacity-50",
   {
     variants: {
       variant: {
         default: "shadow-[1px_2px_3px_0px_#01091c] rounded-lg",
         main: "rounded-lg shadow-[1px_2px_3px_0px_#01091c]",
         badge:
-          "rounded-full border border-foreground bg-gradient-to-r from-[#5ebe8d] via-[#66c527] to-[#09860b] shadow-[2px_4px_6px_0px_#01091c] lg:border-2 dark:border-0",
+          "rounded-full border border-foreground bg-linear-to-r from-[#5ebe8d] via-[#66c527] to-[#09860b] shadow-[2px_4px_6px_0px_#01091c] lg:border-2 dark:border-0",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "no-underline hover:underline-2",
         none: "hover:text-accent-foreground",

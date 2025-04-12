@@ -4,7 +4,7 @@ import { getTopTracksList } from "@/lib/spotify/dataHandler";
 
 const Track = ({ ranking, songUrl, title, artist }) => {
   return (
-    <div className="mt-3 flex flex-row items-baseline border-b-2 border-foreground/30">
+    <div className="border-foreground/30 mt-3 flex flex-row items-baseline border-b-2">
       <p className="lg: text-yellow-500 2xl:text-base dark:text-yellow-300">
         {ranking}
       </p>
@@ -47,12 +47,10 @@ export function TrackList() {
   return (
     <div>
       {loading ? (
-        <section className="flex-grow font-bold sm:text-base">
-          Loading..
-        </section>
+        <section className="grow font-bold sm:text-base">Loading..</section>
       ) : (
         <section>
-          <div className="border-b-2 border-foreground">
+          <div className="border-foreground border-b-2">
             <h3 className="mb-2 font-bold">Top tracks for the week.</h3>
           </div>
 

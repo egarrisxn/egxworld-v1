@@ -35,7 +35,7 @@ export default function HomePage() {
               height={200}
               priority
               alt="A photo of myself"
-              className="max-h-20 max-w-20 rounded-full border border-foreground shadow-[1px_3px_4px_0px_#01091c] md:max-h-28 md:max-w-28 lg:max-h-36 lg:max-w-36 2xl:max-h-full 2xl:max-w-full dark:border-slate-500"
+              className="border-foreground max-h-20 max-w-20 rounded-full border shadow-[1px_3px_4px_0px_#01091c] md:max-h-28 md:max-w-28 lg:max-h-36 lg:max-w-36 2xl:max-h-full 2xl:max-w-full dark:border-slate-500"
             />
 
             <section className="flex flex-col gap-1 lg:gap-1.5 2xl:gap-3">
@@ -47,7 +47,7 @@ export default function HomePage() {
             </section>
 
             <section className="ml-1 max-w-md py-1.5 md:text-xl lg:max-w-full lg:py-0 lg:text-2xl xl:text-3xl 2xl:py-4 2xl:text-4xl">
-              <h4 className="tracking-tighter shadow-foreground drop-shadow-xl lg:tracking-normal">
+              <h4 className="shadow-foreground tracking-tighter drop-shadow-xl lg:tracking-normal">
                 &quot;Crafting{" "}
                 <span className="font-semibold text-black dark:text-yellow-300">
                   innovative
@@ -64,12 +64,12 @@ export default function HomePage() {
               </h4>
             </section>
 
-            <section className="ml-1 flex gap-2 py-1.5 text-lg lg:pb-0 lg:pt-0.5 lg:text-2xl 2xl:text-4xl">
+            <section className="ml-1 flex gap-2 py-1.5 text-base lg:pt-0.5 lg:pb-0 lg:text-xl 2xl:text-3xl">
               <SocialList />
             </section>
 
             <div className="flex flex-col pt-1.5 lg:pt-0">
-              <section className="order-3 flex flex-col gap-3 pb-4 pt-4 lg:order-1 lg:gap-4 2xl:gap-5">
+              <section className="order-3 flex flex-col gap-3 pt-4 pb-4 lg:order-1 lg:gap-4 2xl:gap-5">
                 <Button
                   asChild
                   size="sm"

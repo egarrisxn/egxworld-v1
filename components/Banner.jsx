@@ -30,7 +30,7 @@ export function Banner({ title }) {
   }
   return (
     <div
-      className={`${className} flex w-full justify-center border-b py-8 shadow-md shadow-muted-foreground/80`}
+      className={`${className} shadow-muted-foreground/80 flex w-full justify-center border-b py-8 shadow-md`}
       role="banner"
     >
       <Image

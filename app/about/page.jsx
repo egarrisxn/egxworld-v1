@@ -3,20 +3,20 @@ import { Header } from "../../components/Header";
 import { TechList } from "../../components/TechList";
 import { GitHubDisplay } from "../../components/GitHubDisplay";
 
-const aboutIcons = [
-  {
-    name: "instagram",
-    href: "https://instagram.com/eg___xo",
-    label: "Instagram",
-    className: "hover:text-green-400 dark:hover:text-green-300",
-  },
-  {
-    name: "spotify",
-    href: "https://open.spotify.com/user/egarrisxn",
-    label: "Spotify",
-    className: "hover:text-green-400 dark:hover:text-green-300",
-  },
-];
+// const aboutIcons = [
+//   {
+//     name: "instagram",
+//     href: "https://instagram.com/eg___xo",
+//     label: "Instagram",
+//     className: "hover:text-green-400 dark:hover:text-green-300",
+//   },
+//   {
+//     name: "spotify",
+//     href: "https://open.spotify.com/user/egarrisxn",
+//     label: "Spotify",
+//     className: "hover:text-green-400 dark:hover:text-green-300",
+//   },
+// ];
 
 export default function AboutPage() {
   return (
@@ -26,10 +26,10 @@ export default function AboutPage() {
         <Header
           className="text-green-400 dark:text-green-300"
           title="Who Am I?"
-          icons={aboutIcons}
+          // icons={aboutIcons}
         />
         <article className="mx-auto grid grid-cols-1 justify-center pt-4 md:mx-12 lg:mx-16 xl:mx-auto">
-          <h3 className="text-2xl font-bold leading-7 shadow-foreground drop-shadow-2xl md:text-3xl lg:text-4xl lg:leading-10 lg:tracking-wide xl:text-5xl 2xl:text-6xl">
+          <h3 className="shadow-foreground text-2xl leading-12 font-bold drop-shadow-2xl md:text-3xl lg:text-4xl lg:tracking-wide xl:text-5xl 2xl:text-6xl">
             Hello, World! I&apos;m{" "}
             <span className="text-green-400 dark:text-green-300">Ethan</span>, a
             passionate Full Stack Developer & Digital Product Designer based in
@@ -63,7 +63,7 @@ export default function AboutPage() {
             </p>
           </section>
 
-          <section className="mt-10 flex flex-col gap-5 border-t border-green-500 pt-2 shadow-foreground drop-shadow-2xl sm:flex-row sm:gap-3 sm:pt-4 md:gap-4 lg:pt-8 xl:mb-12 dark:border-green-300">
+          <section className="shadow-foreground mt-10 flex flex-col gap-5 border-t border-green-500 pt-2 drop-shadow-2xl sm:flex-row sm:gap-3 sm:pt-4 md:gap-4 lg:pt-8 xl:mb-12 dark:border-green-300">
             <p className="h-fit sm:w-1/4 sm:border-r sm:border-green-500 sm:pr-1">
               <span className="font-bold text-green-500 dark:text-green-300">
                 Technologies
@@ -79,7 +79,7 @@ export default function AboutPage() {
             </div>
           </section>
 
-          <section className="mt-10 flex flex-col gap-5 border-t border-green-500 pt-2 shadow-foreground drop-shadow-2xl sm:flex-row sm:gap-3 sm:pt-4 md:gap-4 lg:pt-8 xl:mb-12 dark:border-green-300">
+          <section className="shadow-foreground mt-10 flex flex-col gap-5 border-t border-green-500 pt-2 drop-shadow-2xl sm:flex-row sm:gap-3 sm:pt-4 md:gap-4 lg:pt-8 xl:mb-12 dark:border-green-300">
             <p className="h-fit sm:w-1/4 sm:border-r sm:border-green-500 sm:pr-1">
               <span className="font-bold text-green-500 dark:text-green-300">
                 Contributions

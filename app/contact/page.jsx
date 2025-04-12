@@ -4,20 +4,20 @@ import { ContactForm } from "../../components/ContactForm";
 import { TestimonialCard } from "../../components/TestimonialCard";
 import { clientTestimonials } from "@/lib/data/testimonials";
 
-const contactIcons = [
-  {
-    name: "discord",
-    href: "https://discord.com/users/eg___xo",
-    label: "Discord",
-    className: "hover:text-red-400 dark:hover:text-red-300",
-  },
-  {
-    name: "linkedin",
-    href: "https://www.linkedin.com/in/ethan-gx",
-    label: "LinkedIn",
-    className: "hover:text-red-400 dark:hover:text-red-300",
-  },
-];
+// const contactIcons = [
+//   {
+//     name: "discord",
+//     href: "https://discord.com/users/eg___xo",
+//     label: "Discord",
+//     className: "hover:text-red-400 dark:hover:text-red-300",
+//   },
+//   {
+//     name: "linkedin",
+//     href: "https://www.linkedin.com/in/ethan-gx",
+//     label: "LinkedIn",
+//     className: "hover:text-red-400 dark:hover:text-red-300",
+//   },
+// ];
 
 export default function ContactPage() {
   return (
@@ -27,9 +27,9 @@ export default function ContactPage() {
         <Header
           className="text-red-400 dark:text-red-300"
           title="Let's Chat!"
-          icons={contactIcons}
+          // icons={contactIcons}
         />
-        <div className="mx-auto flex flex-col gap-8 pt-4 shadow-foreground drop-shadow-2xl md:mx-12 lg:mx-16 lg:flex-row xl:mx-auto">
+        <div className="shadow-foreground mx-auto flex flex-col gap-8 pt-4 drop-shadow-2xl md:mx-12 lg:mx-16 lg:flex-row xl:mx-auto">
           <section className="lg:w-2/3">
             <ContactForm />
           </section>

@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          "grid min-h-[100dvh] grid-rows-[auto_1fr_auto] scroll-smooth bg-background font-neogrote text-foreground antialiased"
+          "bg-background font-neogrote text-foreground grid min-h-[100dvh] grid-rows-[auto_1fr_auto] scroll-smooth antialiased"
         )}
       >
         <ThemeProvider>

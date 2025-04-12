@@ -10,7 +10,7 @@ import { Button } from "./ui/button";
 
 export function CurrentProjectCard({ project }) {
   return (
-    <Card className="flex flex-col rounded-lg border border-foreground bg-card text-center shadow-[1px_3px_5px_0px_#01091c] dark:border-border dark:shadow-sm">
+    <Card className="border-foreground bg-card dark:border-border flex flex-col rounded-lg border text-center shadow-[1px_3px_5px_0px_#01091c] dark:shadow-xs">
       <CardHeader className="mx-auto flex">
         <Image
           src={project.image}
@@ -31,8 +31,8 @@ export function CurrentProjectCard({ project }) {
           {project.title}
         </a>
       </CardTitle>
-      <CardContent className="flex flex-grow">
-        <p className="my-1 line-clamp-4 leading-tight tracking-tighter text-muted-foreground md:mb-0 lg:mb-1 lg:text-base lg:leading-snug xl:mt-3 xl:text-lg 2xl:text-2xl 2xl:leading-normal 2xl:tracking-normal">
+      <CardContent className="flex grow">
+        <p className="text-muted-foreground my-1 line-clamp-4 leading-tight tracking-tighter md:mb-0 lg:mb-1 lg:text-base lg:leading-snug xl:mt-3 xl:text-lg 2xl:text-2xl 2xl:leading-normal 2xl:tracking-normal">
           {project.description}
         </p>
       </CardContent>
