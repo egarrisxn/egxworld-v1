@@ -1,10 +1,9 @@
-import "./globals.css";
-import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Toaster } from "@/components/ui/toaster";
 import { Analytics } from "@vercel/analytics/react";
+import "./globals.css";
 
 export const metadata = {
   metadataBase: new URL("https://egxworld.vercel.app"),
@@ -32,21 +31,7 @@ export const metadata = {
     creator: "@eg__xo",
     site: "@eg__xo",
   },
-  appleWebApp: {
-    capable: true,
-    title: "EG|World v1",
-    startupImage: "/opengraph-image.png",
-    statusBarStyle: "black-translucent",
-  },
-  formatDetection: {
-    telephone: true,
-    date: true,
-    address: true,
-    email: true,
-    url: true,
-  },
   verification: {},
-  appLinks: {},
 };
 
 export const viewport = {
@@ -59,11 +44,7 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={cn(
-          "bg-background font-neogrote text-foreground grid min-h-[100dvh] grid-rows-[auto_1fr_auto] scroll-smooth antialiased"
-        )}
-      >
+      <body className="bg-background font-neogrote text-foreground grid min-h-[100dvh] grid-rows-[auto_1fr_auto] scroll-smooth antialiased">
         <ThemeProvider>
           <Navbar />
           {children}
