@@ -7,6 +7,5 @@ export default function robots() {
       },
     ],
     sitemap: "https://egxworld.vercel.app/sitemap.xml",
-    host: "https://egxworld.vercel.app",
   };
 }

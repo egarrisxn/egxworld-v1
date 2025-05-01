@@ -11,25 +11,25 @@ export default function manifest() {
     background_color: "#ffffff",
     icons: [
       {
-        src: "/web-app-manifest-192x192.png",
+        src: "/icon-192.png",
         sizes: "192x192",
         type: "image/png",
         purpose: "any",
       },
       {
-        src: "/web-app-manifest-192x192.png",
+        src: "/icon-192.png",
         sizes: "192x192",
         type: "image/png",
         purpose: "maskable",
       },
       {
-        src: "/web-app-manifest-512x512.png",
+        src: "/icon-512.png",
         sizes: "192x192",
         type: "image/png",
         purpose: "any",
       },
       {
-        src: "/web-app-manifest-512x512.png",
+        src: "/icon-512.png",
         sizes: "192x192",
         type: "image/png",
         purpose: "maskable",
