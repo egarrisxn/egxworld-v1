@@ -9,14 +9,15 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-/** @type {import('eslint').Linter.Config[]} */
 const eslintConfig = [
   ...compat.config({
-    extends: ["next/core-web-vitals", "prettier"],
+    extends: ["next/core-web-vitals", "next/typescript", "prettier"],
     rules: {
-      // "no-unused-vars": "off",
-      // "no-use-before-define": "off",
-      // "no-undef": "off",
+      "@next/next/no-img-element": "off",
+      "@typescript-eslint/no-empty-object-type": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-unused-vars": "off",
+      "prefer-const": "off",
     },
   }),
   {
