@@ -99,6 +99,15 @@ export const currentProjects: Project[] = [
     websiteLink: "https://resplashpad.vercel.app",
   },
   {
+    image: "/projects/typinggame.png",
+    alt: "Gavins Typing Game",
+    title: "Gavins Typing Game",
+    description:
+      "Gavins Typing game is an easy-to-use typing game created and tailored for my son, Gavin. Technologies: Next.js, React, TypeScript, Tailwind CSS, Radix-UI, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/cc-nextfolio",
+    websiteLink: "https://cc-nextfolio.vercel.app",
+  },
+  {
     image: "/projects/ccnextfolio.png",
     alt: "CC NextFolio",
     title: "CC NextFolio",
