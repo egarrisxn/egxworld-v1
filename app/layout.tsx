@@ -66,6 +66,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta name="apple-mobile-web-app-title" content="EG|World v1" />
+      </head>
       <body className="bg-background font-neogrote text-foreground grid min-h-[100dvh] grid-rows-[auto_1fr_auto] scroll-smooth antialiased">
         <ThemeProvider>
           <Navbar />
