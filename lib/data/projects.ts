@@ -36,15 +36,6 @@ export const currentProjects: Project[] = [
     websiteLink: "https://manylinks.vercel.app",
   },
   {
-    image: "/projects/xprod.png",
-    alt: "xprod",
-    title: "xprod",
-    description:
-      "xprod is an all-in-one productivity web app to keep your life in order! Technologies: Next.js, React, TypeScript, Supabase, Zod, Tailwind CSS, Radix-UI, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/xprod",
-    websiteLink: "https://xprod.vercel.app",
-  },
-  {
     image: "/projects/scribevoice.png",
     alt: "ScribeVoice",
     title: "ScribeVoice",
@@ -54,76 +45,13 @@ export const currentProjects: Project[] = [
     websiteLink: "https://scribevoice.vercel.app",
   },
   {
-    image: "/projects/xochatbot.png",
-    alt: "XO Chatbot",
-    title: "XO Chatbot",
+    image: "/projects/xprod.png",
+    alt: "xprod",
+    title: "xprod",
     description:
-      "XO Chatbot is a Grok powered, user friendly AI Chatbot right in your pocket! Technologies: Next.js, React, TypeScript, Grok, Next-Auth, Tailwind CSS, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/xochatbot",
-    websiteLink: "https://xochatbot.vercel.app",
-  },
-  {
-    image: "/projects/internationalworldwide.png",
-    alt: "Intl. Worldwide",
-    title: "Intl. Worldwide",
-    description:
-      "Intl. Worldwide is a and multi-themed platform featuring coding practice questionaire. Technologies: Next.js, React, JavaScript, Next-Intl, Tailwind CSS, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/international-worldwide",
-    websiteLink: "https://international-worldwide.vercel.app",
-  },
-  {
-    image: "/projects/unofficialmerch.png",
-    alt: "Unofficial Merchandise",
-    title: "Unofficial Merchandise",
-    description:
-      "Unofficial Merchandise is a fully functional ecommerce web store ready to go! Technologies: Next.js, React, JavaScript, Stripe, Sanity, Tailwind CSS, Radix-UI, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/unofficial-merchandise",
-    websiteLink: "https://unofficialmerchandise.vercel.app",
-  },
-  {
-    image: "/projects/n00bdev.png",
-    alt: "n00b:dev",
-    title: "n00b:dev",
-    description:
-      "n00b:dev is a powerful type-safe & server-side rendered Blog utilizing the Astro Framework. Technologies: Astro, Tailwind CSS, Typescript, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/n00bdev",
-    websiteLink: "https://n00bdev.vercel.app",
-  },
-  {
-    image: "/projects/resplashpad.png",
-    alt: "Resplashpad",
-    title: "Resplashpad",
-    description:
-      "Resplashpad is a photo search aggregator powered by the Unsplash API. Built with Vite, React, TypeScript, TanStack Query, Tailwind CSS, Radix-UI, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/resplashpad",
-    websiteLink: "https://resplashpad.vercel.app",
-  },
-  {
-    image: "/projects/typinggame.png",
-    alt: "Gavins Typing Game",
-    title: "Gavins Typing Game",
-    description:
-      "Gavins Typing game is an easy-to-use typing game created and tailored for my son, Gavin. Technologies: Next.js, React, TypeScript, Tailwind CSS, Radix-UI, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/cc-nextfolio",
-    websiteLink: "https://cc-nextfolio.vercel.app",
-  },
-  {
-    image: "/projects/ccnextfolio.png",
-    alt: "CC NextFolio",
-    title: "CC NextFolio",
-    description:
-      "CC NextFolio is a super sleek website template just for you! Technologies: Next.js, React, TypeScript, Content Collections, Zustand, Tailwind CSS, Radix-UI, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/cc-nextfolio",
-    websiteLink: "https://cc-nextfolio.vercel.app",
-  },
-  {
-    image: "/projects/ms-paint.png",
-    alt: "Mississippi Paint",
-    title: "Mississippi Paint",
-    description:
-      "Mississippi Paint is a web browser based spin on the classic Microsoft Paint. Technologies: Next.js, React, TypeScript, Tailwind CSS, Radix-UI, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/mississippi-paint",
-    websiteLink: "https://mississippi-paint.vercel.app",
+      "xprod is an all-in-one productivity web app to keep your life in order! Technologies: Next.js, React, TypeScript, Supabase, Zod, Tailwind CSS, Radix-UI, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/xprod",
+    websiteLink: "https://xprod.vercel.app",
   },
   {
     image: "/projects/swaybae.png",
@@ -134,33 +62,14 @@ export const currentProjects: Project[] = [
     repositoryLink: "https://github.com/egarrisxn/swaybaeofficial",
     websiteLink: "https://swaybae.net",
   },
-
   {
-    image: "/projects/resumebuilder.png",
-    alt: "ATS Resbuilder",
-    title: "ATS Resbuilder",
+    image: "/projects/internationalworldwide.png",
+    alt: "International Worldwide",
+    title: "International Worldwide",
     description:
-      "ATS Resbuilder is an ATS friendly Resume template & showcase of varied methods to create a resume. Technologies: Next.js, React, JavaScript, MDX, Tailwind CSS, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/ats-resbuilder",
-    websiteLink: "https://ats-resbuilder.vercel.app",
-  },
-  {
-    image: "/projects/websanity.png",
-    alt: "WebSanity: Website Builder",
-    title: "WebSanity: Website Builder",
-    description:
-      "WebSanity is a modern and very easy-to-use CMS powered website builder! Technologies: Next.js, React, JavaScript, Sanity, Next-Sanity, Tailwind CSS, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/websanity-builder",
-    websiteLink: "https://websanitybuilder.vercel.app/",
-  },
-  {
-    image: "/projects/pushinmongo.png",
-    alt: "Pushin' Mongo: Movies",
-    title: "Pushin' Mongo: Movies",
-    description:
-      "Pushin' Mongo: Movies is a full-stack movie database built with the MERN stack. Technologies: Next.js, React, TypeScript, Express, MongoDB, Tailwind CSS, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/pushin-mongo-movies",
-    websiteLink: "https://pushin-mongo-movies.vercel.app/",
+      "Intl. Worldwide is a and multi-themed platform featuring coding practice questionaire. Technologies: Next.js, React, JavaScript, Next-Intl, Tailwind CSS, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/international-worldwide",
+    websiteLink: "https://international-worldwide.vercel.app",
   },
   {
     image: "/projects/xostarter.png",
@@ -172,31 +81,40 @@ export const currentProjects: Project[] = [
     websiteLink: "https://xostarter.vercel.app/",
   },
   {
-    image: "/projects/notcoolors.png",
-    alt: "Not Coolors",
-    title: "Not Coolors",
+    image: "/projects/resumebuilder.png",
+    alt: "ATS | Resbuilder",
+    title: "ATS | Resbuilder",
     description:
-      "Not Coolors is a fun, lightweight color palette generator for all your design needs! Technologies: Next.js, React, JavaScript, Tailwind CSS, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/not-coolors",
-    websiteLink: "https://not-coolors.vercel.app",
+      "ATS Resbuilder is an ATS friendly Resume template & showcase of varied methods to create a resume. Technologies: Next.js, React, JavaScript, MDX, Tailwind CSS, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/ats-resbuilder",
+    websiteLink: "https://ats-resbuilder.vercel.app",
   },
   {
-    image: "/projects/ezcopy.png",
-    alt: "EZCOPY BUTTONS",
-    title: "EZCOPY BUTTONS",
+    image: "/projects/resplashpad.png",
+    alt: "Resplashpad",
+    title: "Resplashpad",
     description:
-      "EZCOPY BUTTONS is a simple, yet powerful copy to clipboard button gallery for your website! Technologies: Next.js, React, JavaScript, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/ezcopy-buttons",
-    websiteLink: "https://ezcopy-buttons.vercel.app",
+      "Resplashpad is a photo search aggregator powered by the Unsplash API. Built with Vite, React, TypeScript, TanStack Query, Tailwind CSS, Radix-UI, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/resplashpad",
+    websiteLink: "https://resplashpad.vercel.app",
   },
   {
-    image: "/projects/devbuildresume.png",
-    alt: "DevBuild Resume",
-    title: "DevBuild Resume",
+    image: "/projects/n00bdev.png",
+    alt: "n00b:dev",
+    title: "n00b:dev",
     description:
-      "Devbuild Resume is an aesthetic (not ATS) resume template for my developer out there! Technologies: Next.js, React, TypeScript, Tailwind CSS, Material-Tailwind, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/devbuild-resume",
-    websiteLink: "https://devbuild-resume.vercel.app",
+      "n00b:dev is a powerful type-safe & server-side rendered Blog utilizing the Astro Framework. Technologies: Astro, Tailwind CSS, Typescript, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/n00bdev",
+    websiteLink: "https://n00bdev.vercel.app",
+  },
+  {
+    image: "/projects/unofficialmerch.png",
+    alt: "Unofficial Merchandise",
+    title: "Unofficial Merchandise",
+    description:
+      "Unofficial Merchandise is a fully functional ecommerce web store ready to go! Technologies: Next.js, React, JavaScript, Stripe, Sanity, Tailwind CSS, Radix-UI, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/unofficial-merchandise",
+    websiteLink: "https://unofficialmerchandise.vercel.app",
   },
   {
     image: "/projects/egxofyi.png",
@@ -218,7 +136,82 @@ export const currentProjects: Project[] = [
   },
 ];
 
-export const pastProjects: Project[] = [
+export const otherProjects: Project[] = [
+  {
+    image: "/projects/xochatbot.png",
+    alt: "XO Chatbot",
+    title: "XO Chatbot",
+    description:
+      "XO Chatbot is a Grok powered, user friendly AI Chatbot right in your pocket! Technologies: Next.js, React, TypeScript, Grok, Next-Auth, Tailwind CSS, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/xochatbot",
+    websiteLink: "https://xochatbot.vercel.app",
+  },
+  {
+    image: "/projects/ccnextfolio.png",
+    alt: "CC NextFolio",
+    title: "CC NextFolio",
+    description:
+      "CC NextFolio is a super sleek website template just for you! Technologies: Next.js, React, TypeScript, Content Collections, Zustand, Tailwind CSS, Radix-UI, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/cc-nextfolio",
+    websiteLink: "https://cc-nextfolio.vercel.app",
+  },
+  {
+    image: "/projects/websanity.png",
+    alt: "WebSanity: Website Builder",
+    title: "WebSanity: Website Builder",
+    description:
+      "WebSanity is a modern and very easy-to-use CMS powered website builder! Technologies: Next.js, React, JavaScript, Sanity, Next-Sanity, Tailwind CSS, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/websanity-builder",
+    websiteLink: "https://websanitybuilder.vercel.app/",
+  },
+  {
+    image: "/projects/pushinmongo.png",
+    alt: "Pushin Mongo Movies",
+    title: "Pushin Mongo Movies",
+    description:
+      "Pushin' Mongo: Movies is a full-stack movie database built with the MERN stack. Technologies: Next.js, React, TypeScript, Express, MongoDB, Tailwind CSS, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/pushin-mongo-movies",
+    websiteLink: "https://pushin-mongo-movies.vercel.app/",
+  },
+  {
+    image: "/projects/typinggame.png",
+    alt: "Gavins Typing Game",
+    title: "Gavins Typing Game",
+    description:
+      "Gavins Typing game is an easy-to-use typing game created and tailored for my son, Gavin. Technologies: Next.js, React, TypeScript, Tailwind CSS, Radix-UI, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/cc-nextfolio",
+    websiteLink: "https://cc-nextfolio.vercel.app",
+  },
+  {
+    image: "/projects/ms-paint.png",
+    alt: "Mississippi Paint",
+    title: "Mississippi Paint",
+    description:
+      "Mississippi Paint is a web browser based spin on the classic Microsoft Paint. Technologies: Next.js, React, TypeScript, Tailwind CSS, Radix-UI, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/mississippi-paint",
+    websiteLink: "https://mississippi-paint.vercel.app",
+  },
+  {
+    image: "/projects/notcoolors.png",
+    alt: "Not Coolors",
+    title: "Not Coolors",
+    description:
+      "Not Coolors is a fun, lightweight color palette generator for all your design needs! Technologies: Next.js, React, JavaScript, Tailwind CSS, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/not-coolors",
+    websiteLink: "https://not-coolors.vercel.app",
+  },
+  {
+    image: "/projects/ezcopy.png",
+    alt: "EZCOPY BUTTONS",
+    title: "EZCOPY BUTTONS",
+    description:
+      "EZCOPY BUTTONS is a simple, yet powerful copy to clipboard button gallery for your website! Technologies: Next.js, React, JavaScript, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/ezcopy-buttons",
+    websiteLink: "https://ezcopy-buttons.vercel.app",
+  },
+];
+
+export const archivedProjects: Project[] = [
   {
     image: "/projects/egmovies.png",
     alt: "Angular Movies DB",
@@ -329,13 +322,4 @@ export const pastProjects: Project[] = [
     repositoryLink: "https://github.com/egarrisxn/Player-One-Reads",
     websiteLink: "https://egarrisxn.github.io/Player-One-Reads",
   },
-  // {
-  //   image: "/projects/seemorenow.png",
-  //   alt: "See More?",
-  //   title: "See More?",
-  //   description:
-  //     "If you would like to see more of what I've done or am currently working on, head over to my GitHub and start exploring. Happy coding!",
-  //   repositoryLink: "https://github.com/egarrisxn",
-  //   websiteLink: "https://egxo.dev",
-  // },
 ];

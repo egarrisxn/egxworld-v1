@@ -58,7 +58,7 @@ export default function AboutPage() {
               </span>{" "}
               I know:
             </p>
-            <div className="flex flex-wrap items-center gap-1.5 sm:w-3/4 md:max-w-none lg:max-w-2xl lg:gap-3 xl:max-w-3xl xl:gap-6">
+            <div className="flex w-[65%] flex-wrap items-center gap-4 lg:max-w-2xl xl:max-w-3xl xl:gap-10">
               <TechList />
             </div>
           </section>
