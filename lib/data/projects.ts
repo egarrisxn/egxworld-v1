@@ -18,6 +18,15 @@ export const currentProjects: Project[] = [
     websiteLink: "https://egxo.dev",
   },
   {
+    image: "/projects/pgp.png",
+    alt: "Patricia Penisten: A Life Remembered",
+    title: "Patricia Penisten: A Life Remembered",
+    description:
+      "Patricia Penisten: A Life Remembered is a site celebrating the life of my grandmother. Technologies: Next.js, React, TypeScript, Supabase, Tailwind CSS, Vercel, & more.",
+    repositoryLink: "https://github.com/egarrisxn/memories-of-patricia",
+    websiteLink: "https://memories-of-patricia.vercel.app",
+  },
+  {
     image: "/projects/quikres.png",
     alt: "Quik|Res",
     title: "Quik|Res",

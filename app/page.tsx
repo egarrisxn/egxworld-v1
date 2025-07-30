@@ -33,9 +33,9 @@ export default function HomePage() {
               <WorkBadge />
             </section>
 
-            <section className="ml-1 max-w-md py-1.5 md:text-xl lg:max-w-full lg:py-0 lg:text-2xl xl:text-3xl 2xl:py-4 2xl:text-4xl">
+            <section className="ml-1 max-w-md py-1.5 md:text-xl lg:max-w-full lg:py-0 lg:text-2xl xl:text-3xl 2xl:py-4 2xl:text-[2.2rem] 2xl:leading-[1.1]">
               <h4 className="shadow-foreground tracking-tighter drop-shadow-xl lg:tracking-normal">
-                &quot;Crafting{" "}
+                Crafting{" "}
                 <span className="font-semibold text-black dark:text-yellow-300">
                   innovative
                 </span>{" "}
@@ -47,7 +47,7 @@ export default function HomePage() {
                 <span className="font-semibold text-black dark:text-yellow-300">
                   elegant
                 </span>{" "}
-                design. That&apos;s what I&apos;m here for!&quot;
+                design. That&apos;s what I&apos;m here for!
               </h4>
             </section>
 
