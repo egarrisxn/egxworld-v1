@@ -23,8 +23,8 @@ export const currentProjects: Project[] = [
     title: "Patricia Penisten: A Life Remembered",
     description:
       "Patricia Penisten: A Life Remembered is a site celebrating the life of my grandmother. Technologies: Next.js, React, TypeScript, Supabase, Tailwind CSS, Vercel, & more.",
-    repositoryLink: "https://github.com/egarrisxn/memories-of-patricia",
-    websiteLink: "https://memories-of-patricia.vercel.app",
+    repositoryLink: "https://github.com/egarrisxn/patricia-penisten",
+    websiteLink: "https://patricia-penisten.com",
   },
   {
     image: "/projects/quikres.png",
